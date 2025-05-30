@@ -1,64 +1,59 @@
-🔐 RSA Algorithm in Python
-This repository contains a Python implementation of the RSA encryption and decryption algorithm, one of the most widely used public-key cryptographic systems.
+# 🔐 RSA Algorithm in Python
 
-📜 Description
+This repository contains a Python implementation of the **RSA encryption and decryption algorithm**, one of the most widely used public-key cryptographic systems.
+
+## 📜 Description
+
 RSA (Rivest–Shamir–Adleman) is an asymmetric cryptographic algorithm used for secure data transmission. It relies on the mathematical properties of large prime numbers and modular arithmetic.
 
 This project demonstrates:
+- Generation of public and private RSA keys.
+- Encryption of plaintext messages using the public key.
+- Decryption of ciphertext messages using the private key.
+- Basic number theory functions (e.g., GCD, modular inverse, primality testing).
 
-Generation of public and private RSA keys.
+## 🛠 Features
 
-Encryption of plaintext messages using the public key.
+- Key generation with selectable key sizes
+- Basic encryption and decryption support for strings
+- Educational and beginner-friendly code structure
+- No external libraries required (pure Python)
 
-Decryption of ciphertext messages using the private key.
+## 📁 Files
 
-Basic number theory functions (e.g., GCD, modular inverse, primality testing).
+- `rsa.py` – Main script containing the RSA implementation.
+- `utils.py` *(optional)* – Helper functions (GCD, mod inverse, prime checks).
+- `example.py` – Example usage script (encrypting and decrypting a message).
 
-🛠 Features
-Key generation with selectable key sizes
+## 🚀 Getting Started
 
-Basic encryption and decryption support for strings
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/rsa-python.git
+   cd rsa-python
+   ```
+  Run the example:
 
-Educational and beginner-friendly code structure
+   ```bash
+   python example.py
+   ```
 
-No external libraries required (pure Python)
+## 🧠 Concepts Covered
+- Modular exponentiation
 
-📁 Files
-functions.py – Main script containing the RSA implementation.
+- Euclidean algorithm and Extended Euclidean algorithm
 
-ex.py – Example usage script (encrypting and decrypting a message).
+- Euler's Totient Function
 
-🚀 Getting Started
-Clone the repository:
+- Public and private key structure
+  
+---
+## 📚 Use Cases
+- Educational tool to learn about cryptographic systems
 
-bash
-Copiar
-Editar
-git clone https://github.com/your-username/rsa-python.git
-cd rsa-python
-Run the example:
+- Simple encryption for personal projects
 
-bash
-Copiar
-Editar
-python example.py
-🧠 Concepts Covered
-Modular exponentiation
+- Demonstration of number theory in practice
 
-Euclidean algorithm and Extended Euclidean algorithm
-
-Euler's Totient Function
-
-Public and private key structure
-
-📚 Use Cases
-Educational tool to learn about cryptographic systems
-
-Simple encryption for personal projects
-
-Demonstration of number theory in practice
-
-⚠️ Disclaimer
-This project is for educational purposes only and not intended for use in production or secure environments.
-
---- 
+## ⚠️ Disclaimer
+- This project is for educational purposes only and not intended for use in production or secure environments.
